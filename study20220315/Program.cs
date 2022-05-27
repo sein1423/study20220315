@@ -10,6 +10,8 @@ namespace study20220315
     public class Calc
     {
         public int a, b;
+
+
         public void add()
         {
             WriteLine($"{a} + {b} = {a + b}");
@@ -28,6 +30,7 @@ namespace study20220315
         {
             if (b == 0) 
             {
+
                 WriteLine("0으로는 나눌 수 없습니다 ");
                 return;
             }
@@ -117,7 +120,7 @@ namespace study20220315
                         WriteLine("다시 입력하시오");
                         break;
                 }
-
+//커밋
             } while (i<1||i>4);
             
         }
