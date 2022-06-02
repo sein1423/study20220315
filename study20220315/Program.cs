@@ -25,7 +25,7 @@ namespace study20220315
         {
             WriteLine($"{a} * {b} = {a * b}");
         }
-
+//
         public void nan()
         {
             if (b == 0) 
